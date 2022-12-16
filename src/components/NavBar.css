@@ -1,0 +1,63 @@
+.sidebarmenu {
+  width: 16%;
+  height: 98.5vh;
+  background-color: white;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  border-radius: 0.5rem 0 0 0.5rem;
+  box-shadow: 1px 3px 5px black;
+  z-index: 1000;
+}
+.sidebarmenu .image {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  padding-top: 0px;
+  margin: auto;
+  margin-top: 5px;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.sidebarmenu .image p {
+  margin-top: -14px;
+  color: lightgray;
+}
+.sidebarmenu .image img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border: solid 2px black;
+}
+.sidebarmenu .image .ActiveIcon {
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  left: 124px;
+  top: 94px;
+  border: solid 2px white;
+}
+.sidebarmenu .sidebar {
+  width: 100%;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+}
+.sidebarmenu .sidebar button {
+  cursor: pointer;
+  padding: 10px 8px;
+  background: transparent;
+  border: 0;
+  text-align: left;
+  padding-left: 40px;
+  border-left: solid 5px transparent;
+}
+.sidebarmenu .sidebar button:hover {
+  background: lightblue;
+  width: 100%;
+  border-left: solid 5px blue;
+}/*# sourceMappingURL=NavBar.css.map */

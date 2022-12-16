@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&display=swap');
+
+$blue:light-grey;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+body{
+    background: rgb(241, 239, 239);
+}
+// .welcome-screen{
+//     width: 43rem;
+//     background: pink;
+//     margin: auto;
+
+//     h1{
+//         color: black;
+//     }
+// }
+
+.header{
+    position: absolute;
+    top: 15px;
+    left: 260px;
+
+    h1{
+        font-size: 22px;
+    }
+}
+.content_section{
+    width: 50%;
+    height: 89vh;
+    color: black;
+    margin: auto;
+    background: white;
+    position: absolute;
+    left: 260px;
+    top: 60px;
+    border-radius: 10px;
+    box-shadow: -1px 2px 8px black;
+
+    h3{
+        padding: 20px 10px;
+    }
+    form{
+        padding-left: 20px;
+        padding-right: 20px;
+        input{
+            width: 99%;
+            margin: auto;
+            padding: 5px;
+            margin-top: 8px;
+            &::-webkit-input-placeholder{
+                color: black;
+            }
+        }
+        label{
+            margin-bottom: 20px;
+        }
+        .inputs{
+            display: flex;
+            padding-top: 30px;
+            span{
+                margin-bottom: 30px;
+            }
+            input{
+                width: 95%;
+                height: 40px;
+                margin-top: 8px;
+                &::-webkit-input-placeholder{
+                    color: black;
+                }
+            }
+        }
+        .options{
+            width: 100%;
+            margin-top: 30px;
+            select{
+                width: 98.5%;
+                padding: 10px 12px;
+                margin-top: 10px;
+                cursor: pointer;
+
+                option{
+                    cursor: pointer;
+                }
+            }
+        }
+        .textarea{
+            margin-top: 10px;
+            textarea{
+                text-indent: 20px;
+                padding: 10px 0px;
+                margin-top: 5px;
+                &::-webkit-input-placeholder{
+                    color: black;
+                }
+            }
+        }
+    }
+
+    .images{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .theimages{
+            img{
+                width: 40px;
+                border-radius: 100%;
+                border: solid 2px black;
+                margin-top: 3px;
+                cursor: pointer;
+            }
+            img:nth-child(2){
+                margin-left: 0px;
+            }
+            img:nth-child(3){
+                margin-left: -20px;
+            }
+            img:nth-child(4){
+                margin-left: -20px;
+            }
+        }
+        .btn{
+            a{
+                text-decoration: none;
+                color: lightgray;
+            }
+            
+            a:nth-child(1){
+                color: blue;
+                margin-right: 20px;
+            }
+            a:nth-child(2){
+                background-color: blue;
+                padding: 10px 13px;
+                border-radius: 2px;
+                margin-right:7px;
+            }
+        }
+    }
+}
+.calenderside{
+    position: absolute;
+    right: 3.5rem;
+    top: 3.5rem;
+    width: 25%;
+    height: 90vh;
+    background: white;
+    border-radius: 5px;
+    margin-top: 3px;
+    box-shadow: 1px 3px 9px black;
+    padding: 15px 15px;
+
+    p{
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .date{
+        margin-left: 10px;
+        margin-top: 10px;
+        font-weight: 100;
+        font-size: 16px;
+    }
+    .calender{
+        width: 95%;
+        height: 160px;
+        margin: auto;
+        box-shadow: inset -1px 2px 8px black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    Calender
+    .design_thinking{
+        width: 95%;
+        height: 40px;
+        background: transparent;
+        box-shadow: inset -1px 2px 8px black;
+        margin: auto;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h3{
+            font-weight: 200;
+            font-size: 14px;
+            padding: 3px 5px;
+        }
+    }
+    .meetingsection{
+        width: 95%;
+        height: 210px;
+        border: solid 1px black;
+        margin: auto;
+        margin-top: 10px;
+
+        p{
+            padding: 0;
+            margin: 0;
+            margin-left: 10px;
+        }
+        h4{
+            font-size: 15px;
+            margin-left: 10px;
+        }
+        img{
+            width: 100%;
+            height: 130px;
+            padding: 0;
+            margin: 0;
+        }
+        .littleImages{
+            display: flex;
+            img{
+                width: 25px;
+                height: 25px;
+                border-radius: 100%;
+                border: solid 1px black;
+                margin-top: 6px;
+                margin-left: 10px;
+            }
+            img:nth-child(2){
+                margin-left: -15px;
+            }
+            img:nth-child(3){
+                margin-left: -15px;
+            }
+        }
+    }
+}
